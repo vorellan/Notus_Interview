@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ships</title>
+</head>
+<body>
+	<table>
+		<th>
+			<tr>
+				<td rowspan="2">Día</td>
+				{% for terminal in terminal_set %}
+				<td colspan="{{ ships_length }}">Terminal {{ terminal.name }}</td>
+				{% endfor %}
+			</tr>
+			<tr>
+				{% for terminal in terminal_set %}
+				<td>Demanda</td>
+				{% for ship in ship_set %}
+				<td>{{ ship.name }}</td>
+				{% endfor %}
+				<td>Inventario Final</td>
+				{% endfor %}
+			</tr>
+		</th>
+		<tbody>
+			{% for i in table_data %}
+			<tr>
+				{% for j in i %}
+				<td>{{ j }} </td>
+				{% endfor %}
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</body>
+</html>
