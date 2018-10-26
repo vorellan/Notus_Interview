@@ -5,7 +5,9 @@
 	<title>Ships</title>
 </head>
 <body>
+
 	<table>
+
 		<th>
 			<tr>
 				<td rowspan="2">Día</td>
@@ -24,14 +26,19 @@
 			</tr>
 		</th>
 		<tbody>
+
 			{% for i in table_data %}
 			<tr>
 				{% for j in i %}
-				<td>{{ j }} </td>
+
+				<td>{{ j }}</td>
 				{% endfor %}
 			</tr>
 			{% endfor %}
 		</tbody>
 	</table>
+
+
+
 </body>
 </html>

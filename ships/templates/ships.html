@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ships</title>
+</head>
+<body>
+
+
+    <hr>
+	{% for ship in ship_set %}
+
+        Nombre barco:
+        {{ship.ship__name}}
+        Descarca mensual:
+        {{ship.quantity__sum}}
+        Mes:
+        {{ship.month}}
+        Nombre terminal:
+        {{ship.terminal__name}}
+
+        <br>
+    {% endfor %}
+
+    <hr>
+
+
+
+</body>
+</html>

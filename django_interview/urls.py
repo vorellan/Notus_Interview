@@ -16,9 +16,13 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from ships import views
+from ships.views import ChartData
 
 urlpatterns = [
     url(r'^$', views.main),
-    url(r'^ships/([0-9]+)/', views.show_ship),
     url(r'^terminals/([0-9]+)/', views.show_terminal),
+    url(r'^ships/([0-9]+)/', views.alternative_ship),
+    url(r'^chart/', ChartData.as_view(), name='chart'),
+    url(r'^graph/', views.get_home),
+
 ]
