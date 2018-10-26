@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="93a55a94-f0c2-4efd-84bd-7611a5e9ae9d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_interview/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_interview/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_interview/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_interview/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ships/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/ships/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ships/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ships/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,16 +108,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state>
+              <caret selection-end-line="222" selection-end-column="80" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
@@ -194,6 +190,16 @@
               <item name="django-interview" type="b2602c69:ProjectViewProjectNode" />
               <item name="django-interview" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="django-interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-interview" type="462c0819:PsiDirectoryNode" />
+              <item name="django_interview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-interview" type="462c0819:PsiDirectoryNode" />
+              <item name="ships" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -256,6 +262,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19200628" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -393,17 +400,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="222" selection-end-column="80" />
         </state>
       </provider>
     </entry>
